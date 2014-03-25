@@ -62,13 +62,6 @@ else()
 	set(PLATFORM_SPECIFIC_LIBRARIES m)
 endif()
 
-if(APPLE)
-	set(SDL2_SEARCH_PATHS ~/Library/Frameworks /Library/Frameworks /opt/local)
-
-	find_path(SDL2_INCLUDE_DIR SDL2/SDL.h
-		PATHS ~/Library/Frameworks /Library/Frameworks /usr/local/include)
-endif()
-
 find_package(SDL2 REQUIRED)
 
 include_directories(${SDL2_INCLUDE_DIR})

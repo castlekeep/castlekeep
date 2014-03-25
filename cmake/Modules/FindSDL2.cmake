@@ -65,17 +65,17 @@
 
 
 set(SDL2_SEARCH_PATH
-	#~/Library/Frameworks
-	#/Library/Frameworks
-	#/usr/local
-	#/usr
-	#/sw # Fink
-	#/opt/local # DarwinPorts
-	#/opt/csw # Blastwave
-	#/opt
+	~/Library/Frameworks
+	/Library/Frameworks
+	/usr/local
+	/usr
+	/sw # Fink
+	/opt/local # DarwinPorts
+	/opt/csw # Blastwave
+	/opt
 )
 
-find_path(SDL2_INCLUDE_DIR SDL.h
+find_path(SDL2_INCLUDE_DIR SDL2/SDL.h
 	HINTS
 		ENV SDL2DIR
 	PATH_SUFFIXES include/SDL2 include
