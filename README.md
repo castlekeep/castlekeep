@@ -5,3 +5,26 @@ Castlekeep is an isometric castle build simulator, which takes place in the euro
 Documentation
 ============
 http://castlekeep.github.io/documentation/
+
+Build instructions
+===================
+####Linux/Unix####
+
+Get the source:
+
+    git clone git://github.com/castlekeep/castlekeep.git  
+    cd castlekeep
+
+Create a build directory:
+  
+    mkdir build  
+    cd build  
+
+Configure:  
+
+    cmake ../  
+
+Build:  
+
+    make  
+
