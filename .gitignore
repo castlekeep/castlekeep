@@ -1,1 +1,5 @@
-build/*
+*.[oa]
+*~
+build/
+lib/
+resources/
