@@ -26,5 +26,10 @@ Configure:
 
 Build:  
 
-    make  
+    make
+    
+Styleguide
+============
+
+http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml
 
