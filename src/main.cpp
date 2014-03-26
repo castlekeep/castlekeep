@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "castlekeep.h"
 
-int main()
+int main(int argc, char *argv[])
 {
 	CastleKeep::CastleKeep *game = new CastleKeep::CastleKeep();
 	return game->run();
